@@ -23,7 +23,7 @@ const weatherDetailsID = document.getElementById("weather-details")
   })
   
   const Search = () => {
-    const APIKey = "174b5e11502df399af2407add8e93c33"
+    const APIKey = ""
     const city = document.querySelector(".search-box input").value
     if(city === ""){
         return;
